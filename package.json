@@ -1,0 +1,38 @@
+{
+  "name": "halloween",
+  "version": "1.0.0",
+  "description": "Spooky Snap is a Halloween-themed web app that lets users upload photos and apply eerie filters like ghosts and fog in real-time. Powered by Cloudinary for seamless image management, it's the perfect way to create and share spooky images this Halloween!",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "npm run development",
+    "prod": "npm run production",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/crlstve/halloween.git"
+  },
+  "keywords": [
+    "halloween",
+    "cloudinary",
+    "midudev"
+  ],
+  "author": "c.esteve",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/crlstve/halloween/issues"
+  },
+  "homepage": "https://github.com/crlstve/halloween#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.49"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
